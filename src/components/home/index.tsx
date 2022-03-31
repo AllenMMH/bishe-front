@@ -1,10 +1,10 @@
 import React from 'react'
-
+import  styles from './index.module.scss'
 type Props = {}
 
 const index = (props: Props) => {
   return (
-    <div>home</div>
+    <div className={styles.home}>home</div>
   )
 }
 
